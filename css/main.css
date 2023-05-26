@@ -1,0 +1,295 @@
+@font-face{
+    font-family: 'ofont.ru_Klyakson';
+    src: url(../css/fonts/ofont.ru_Klyakson.woff),
+         url(../css/fonts/ofont.ru_Klyakson.ttf),
+         url(../css/fonts/ofont.ru_Klyakson.woff2);
+  }
+@font-face{
+    font-family: '23-seconds-to-midnight';
+    src: url(../css/fonts/23-seconds-to-midnight.woff),
+         url(../css/fonts/23-seconds-to-midnight.ttf),
+         url(../css/fonts/23-seconds-to-midnight.woff2);
+ }  
+body{
+    background-image: url(../fon6.png);
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+header{
+    color: #000000;
+    position: flex;
+    margin-left: auto; 
+    margin-right: auto; 
+    justify-content: center; 
+    align-items: center; 
+    background: #000000af; 
+    text-align: center; 
+    border-radius: 1em; 
+    margin-top: 1em;
+    height: 63px;
+    width: auto;
+    display: flex;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+#logotip{
+    padding: 5px;
+    width: 50px; 
+    border-radius: 1em; 
+}
+span{
+    font-size: 150%;
+    color: #cc3b3b;
+    padding: 5px;
+    display: flex;
+    margin-top: 5px;
+    font-style: normal;
+    font-family:'23-seconds-to-midnight', sans-serif ;
+}
+#sub{
+    font-size: 100%;
+    color: #cc3b3b;
+    margin-top: -10px;
+}
+#search{
+    float: left;
+    left: 50%;
+    right: 50%;
+    position: flex; 
+    text-align: center;
+    margin-left: 12em;
+}
+#tel{
+    color:#cc3b3b;
+    margin-left: 10em;
+    left: 50%;
+}
+
+#tel.hover{
+    color: #4f0f0f;
+}
+
+#list{
+    color: #cc3b3b;
+    background: #000000af;
+    width: auto;
+    height: 50px;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+li{
+    float: left;
+    padding: 30px;
+}
+ul{
+    list-style: none ;
+}
+a{
+    color: #cc3b3b;
+    text-decoration-line: none;
+    font-size: 150%;
+    font-style: normal;
+    font-family:'ofont.ru_Klyakson', sans-serif ;
+}
+a:hover{
+    color: #4f0f0f;
+}
+#hat{
+    background-image: url(../fon8.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 300px;
+    width: auto;
+    border-radius: 1em;
+    margin: 1em 5em;
+    display: flex;
+}
+button{
+    border-radius: 1em;
+    border-color: #cc3b3b;
+    color: #4f0f0f;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    font-family:'ofont.ru_Klyakson', sans-serif ;
+}
+#content{
+    border-radius: 1em;
+    display: flex;
+    padding-left: 5em;
+    background: #000000af;
+    margin: 1em 5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#info{
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+    background: #000000af;
+    margin: 1em 5em;
+    text-align: center;
+    color: #cc3b3b;
+    font-style: normal;
+    font-family:'ofont.ru_Klyakson', sans-serif ;
+}
+.info{
+    font-size: 150%;
+}
+.glaz{
+    list-style-image: url(../glaz.png);
+    padding-left: 3em;
+}
+.glaz.hover{
+    list-style-image: url(../glaz1.png);
+}
+#news{
+    color: #cc3b3b;
+    background: #000000af;
+    width: auto;
+    height: auto;
+    border-radius: 1em;
+    margin-top: 1em;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 1em;
+    font-style: normal;
+    font-family:'ofont.ru_Klyakson', sans-serif ;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+#page{
+    color: #cc3b3b;
+    background: #000000af;
+    width: auto;
+    height: auto;
+    border-radius: 0.3em;
+    margin: 0.5em 1em;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    font-style: normal;
+    font-family:'ofont.ru_Klyakson', sans-serif ;
+    font-size: 500%;
+}
+#photo{
+    width: 20%;
+    border-radius: 1em;
+}
+#dphoto{
+    float: left;
+}
+#gallery{
+    float: left;
+}
+.gallery{
+    border-radius: 1em;
+    width: 30%;
+}
+
+#str{
+    border-radius: 1em;
+}
+#page1{
+    border-radius: 0.3em;
+    width: 700px;
+}
+p{
+    font-style: normal;
+    font-family:'ofont.ru_Klyakson', sans-serif ;
+    font-size: 300%;
+    color: #cc3b3b;
+}
+label{
+    font-style: normal;
+    font-family:'ofont.ru_Klyakson', sans-serif ;
+    font-size: 100%;
+    color: #cc3b3b;
+}
+#son{
+    font-size: 400%;
+    margin-top: -2em;
+    margin-bottom: -1em;
+    font-style: normal;
+    font-family:'ofont.ru_Klyakson', sans-serif ;
+}
+.sex{
+    position: absolute;
+    display: flex;
+    margin-top: 1.5em;
+    font-size: 400%;
+    height: 90px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    color:#cc3b3b;
+    background-color:#ffffff88;
+    font-style: normal;
+    font-family:'23-seconds-to-midnight', sans-serif;
+}
+
+.forms{
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text], input[type=password] {
+  width: auto;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #cc3b3b;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #cc3b3b;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+footer{
+    margin-top: 100%;
+    color: #000000;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background:#8787877e;
+    text-align: center; 
+    border-radius: 1em;
+    margin-top: 1em;
+}
