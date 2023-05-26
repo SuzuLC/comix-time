@@ -91,6 +91,9 @@ li{
     float: left;
     padding: 30px;
 }
+.glaz{
+    float: none;
+}
 ul{
     list-style: none ;
 }
